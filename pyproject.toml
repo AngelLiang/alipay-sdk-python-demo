@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "alipay-sdk-python-demo"
+version = "0.1.0"
+description = "支付宝python sdk使用示例"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+alipay-sdk-python = "^3.7.33"
+pytest = "^8.0.0"
+python-dotenv = "^1.0.1"
+
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+priority = "default"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
